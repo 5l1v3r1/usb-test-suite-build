@@ -25,3 +25,6 @@
 	path = ice40-playground
 	url = https://github.com/smunaut/ice40-playground.git
 	branch = usb
+[submodule "yosys"]
+	path = yosys
+	url = https://github.com/YosysHQ/yosys.git
