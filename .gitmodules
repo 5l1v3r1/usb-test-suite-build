@@ -21,3 +21,7 @@
 	path = tinyfpga
 	url = https://github.com/antmicro/TinyFPGA-Bootloader.git
 	branch = simulation-fixes
+[submodule "ice40-playground"]
+	path = ice40-playground
+	url = https://github.com/smunaut/ice40-playground.git
+	branch = usb
