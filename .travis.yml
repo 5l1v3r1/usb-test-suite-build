@@ -19,6 +19,8 @@ env:
     - T=valentyusb  S=test-clocks      OP=decode
     - T=valentyusb  S=test-macOSenum   OP=sim
     - T=valentyusb  S=test-macOSenum   OP=decode
+    - T=valentyusb  S=test-valenty-cdc OP=sim
+    - T=valentyusb  S=test-valenty-cdc OP=decode
     - T=usb1device  S=test-basic       OP=sim
     - T=usb1device  S=test-basic       OP=decode
     - T=usb1device  S=test-enum        OP=sim
