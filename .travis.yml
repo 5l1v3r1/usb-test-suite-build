@@ -23,6 +23,8 @@ env:
     - T=usb1device  S=test-basic       OP=decode
     - T=usb1device  S=test-sof         OP=sim
     - T=usb1device  S=test-sof         OP=decode
+    - T=usb1device  S=test-sequence    OP=sim
+    - T=usb1device  S=test-sequence    OP=decode
     - T=usb1device  S=test-enum        OP=sim
     - T=usb1device  S=test-enum        OP=decode
     - T=usb1device  S=test-w10enum     OP=sim
@@ -35,6 +37,8 @@ env:
     - T=foboot      S=test-basic       OP=decode
     - T=foboot      S=test-sof         OP=sim
     - T=foboot      S=test-sof         OP=decode
+    - T=foboot      S=test-sequence    OP=sim
+    - T=foboot      S=test-sequence    OP=decode
     - T=foboot      S=test-enum        OP=sim
     - T=foboot      S=test-enum        OP=decode
     - T=foboot      S=test-w10enum     OP=sim
@@ -47,6 +51,8 @@ env:
     - T=tinyfpgabl  S=test-basic       OP=decode
     - T=tinyfpgabl  S=test-sof         OP=sim
     - T=tinyfpgabl  S=test-sof         OP=decode
+    - T=tinyfpgabl  S=test-sequence    OP=sim
+    - T=tinyfpgabl  S=test-sequence    OP=decode
     - T=tinyfpgabl  S=test-enum        OP=sim
     - T=tinyfpgabl  S=test-enum        OP=decode
     - T=tinyfpgabl  S=test-w10enum     OP=sim
@@ -59,6 +65,8 @@ env:
     - T=tntusb      S=test-basic       OP=decode
     - T=tntusb      S=test-sof         OP=sim
     - T=tntusb      S=test-sof         OP=decode
+    - T=tntusb      S=test-sequence    OP=sim
+    - T=tntusb      S=test-sequence    OP=decode
     - T=tntusb      S=test-enum        OP=sim
     - T=tntusb      S=test-enum        OP=decode
     - T=tntusb      S=test-w10enum     OP=sim
